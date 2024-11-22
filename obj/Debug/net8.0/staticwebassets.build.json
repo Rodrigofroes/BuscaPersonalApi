@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tVqPQiXvRNp4lgCa7DD/bWPEQJAQ6J9yg3H7hF1xRmI=",
+  "Source": "BuscaPersonalApi",
+  "BasePath": "_content/BuscaPersonalApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
