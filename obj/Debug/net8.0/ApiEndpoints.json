@@ -1,23 +1,76 @@
 [
   {
-    "ContainingType": "BuscaPersonalApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "BuscaPersonalApi.Controllers.PersonalController",
+    "Method": "AtualizarPersonal",
+    "RelativePath": "api/personal/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personal",
+        "Type": "BuscaPersonalApi.Dtos.InputDto.PersonalInputDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BuscaPersonalApi.Controllers.PersonalController",
+    "Method": "BuscarPersonal",
+    "RelativePath": "api/personal/buscar/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BuscaPersonalApi.Controllers.PersonalController",
+    "Method": "DeletarPersonal",
+    "RelativePath": "api/personal/deletar/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BuscaPersonalApi.Controllers.PersonalController",
+    "Method": "InserirPersonal",
+    "RelativePath": "api/personal/inserir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personal",
+        "Type": "BuscaPersonalApi.Dtos.InputDto.PersonalInputDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BuscaPersonalApi.Controllers.PersonalController",
+    "Method": "ListarPersonal",
+    "RelativePath": "api/personal/listar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BuscaPersonalApi.WeatherForecast, BuscaPersonalApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

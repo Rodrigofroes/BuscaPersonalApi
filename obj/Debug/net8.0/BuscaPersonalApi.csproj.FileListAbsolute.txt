@@ -140,3 +140,4 @@ C:\BuscaPersonalApi\obj\Debug\net8.0\refint\BuscaPersonalApi.dll
 C:\BuscaPersonalApi\obj\Debug\net8.0\BuscaPersonalApi.pdb
 C:\BuscaPersonalApi\obj\Debug\net8.0\BuscaPersonalApi.genruntimeconfig.cache
 C:\BuscaPersonalApi\obj\Debug\net8.0\ref\BuscaPersonalApi.dll
+C:\BuscaPersonalApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
